@@ -1,0 +1,14 @@
+{
+  "name": "chakra-chain",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter frontend dev",
+    "build": "pnpm --filter frontend build",
+    "test": "pnpm --filter contracts test",
+    "compile": "pnpm --filter contracts compile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
